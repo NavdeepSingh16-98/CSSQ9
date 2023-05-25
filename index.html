@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        background-color: rgb(181, 254, 254);
+          color: white;
+        font-size: 50px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        
+        
+
+    }
+
+    header{
+        background-color:rgb(95, 197, 182);
+      
+        padding: 20px;
+         margin: 30px 20px;
+       
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+          margin: 30px 20px;
+           height: 500px;
+         
+    }
+    aside{
+        width: 30%;
+        background-color: rgb(83, 198, 83);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+       
+    }
+
+    article{
+        width: 60%;
+        background-color: orange;
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .imgDiv{
+        background-color: yellow;
+        width: 40%;
+        height: 100%;
+    }
+    .imgMain{
+       position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: inherit;
+    height: 40%;
+    padding: 10px;
+    gap: 20px;
+    width: 96%;
+    }
+</style>
+<body>
+    <header>
+        Header 
+    </header>
+
+    <section>
+        <aside>
+            Aside
+        </aside>
+        <article>
+            Article
+<div class="imgMain">
+            <div class="imgDiv">Image</div>
+            <div class="imgDiv">Image</div>
+            <div class="imgDiv">Image</div>
+
+</div>
+        </article>
+    </section>
+</body>
+</html>
